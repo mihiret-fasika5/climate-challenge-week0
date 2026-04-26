@@ -41,4 +41,4 @@ This week's challenge focuses on understanding, exploring, and analyzing histori
 3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
 4. etc...
 
-5. Follow setup [instructions](Link to file)
+
