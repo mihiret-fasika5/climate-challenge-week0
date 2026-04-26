@@ -37,7 +37,7 @@ This week's challenge focuses on understanding, exploring, and analyzing histori
 ## Getting Started
 
 1. Clone this repo (https://github.com/mihiret-fasika5/climate-challenge-week0.git).
-2. Raw Data is being kept [https://drive.google.com/drive/folders/1pW2NuxXYBOS1b0UvEOsyNUThgLAwB1fD?usp=sharing](Repo folder containing raw data) within this repo.
+2. Raw Data is being kept [https://drive.google.com/drive/folders/1pW2NuxXYBOS1b0UvEOsyNUThgLAwB1fD?usp=sharing]
 3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
 4. etc...
 
