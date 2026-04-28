@@ -8,14 +8,15 @@ EthioClimate Analytics is a data consultancy engaged by the Ethiopian Ministry o
 
 As a Junior Data Analyst at EthioClimate Analytics, your task is to conduct an exploratory analysis of historical climate data across five African nations. Your analysis should surface key climate trends, seasonal patterns, and anomalies that will inform Ethiopia's data-driven position ahead of the summit. Your findings must be translated into clear, evidence-backed insights that highlight Africa's unique climate vulnerabilities and support the continent’s climate policy narrative.
 
-Your report should provide insight to help realize the overarching objective: positioning Ethiopia as a credible, data-informed host and amplifying Africa's voice in global climate negotiations.
-
-What do we mean actually by evidence-backed or negotiating grade insights? An analysis qualifies as negotiation-grade when it answers three layered questions:
-
-What is changing? (trend, with baseline, with uncertainty)
-What did it cause? (an impact stat — yields, displacement, GDP, disease burden — even if they have to pull it from a secondary source)
-What does it demand? (the policy/finance ask the evidence supports — adaptation finance, early warning systems, loss-and-damage)
-A chart that answers only (1) is EDA. A chart that answers (1)+(2) is a report. A chart that answers (1)+(2)+(3) is a position paper. That's the ladder.
+Dataset
+- Source: https://power.larc.nasa.gov/( NASA Prediction of Worldwide Energy Resources (NASA POWER) database)
+- Time Period: 2015-2026
+- Key Features:
+  - Temperature
+  - precipitation
+  - humidity
+  - wind speed 
+  -Atmospheric surface pressure
 
 ### Partner
 * EthioClimate Analytics
@@ -23,7 +24,10 @@ A chart that answers only (1) is EDA. A chart that answers (1)+(2) is a report. 
 
 ### Methods Used
 * Exploratory data analysis techniques
-* 
+* Data cleaning and preprocessing
+* Trend analysis (temperature & precipitation)
+* Data visualization
+* Insight extraction
 
 ### Technologies
 * Python
@@ -31,14 +35,21 @@ A chart that answers only (1) is EDA. A chart that answers (1)+(2) is a report. 
 * conda
 * etc. 
 
-## Project Description
-This week's challenge focuses on understanding, exploring, and analyzing historical climate and weather data from Ethiopia, Kenya, Sudan, Tanzania, and Nigeria. The challenge aims to evaluate candidates for the 12-week training program in Data Engineering (DE), Financial Analytics (FA), and Machine Learning Engineering (MLE).
+
 
 ## Getting Started
 
 1. Clone this repo (https://github.com/mihiret-fasika5/climate-challenge-week0.git).
-2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
-3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-4. etc...
+2. Raw Data is being kept [here]
+3. Create virtual environment(python -m venv venv)
+4. Activate it(venv\Scripts\activate)
+5. Install dependencies(pip install -r requirements.txt)
 
-5. Follow setup [instructions](Link to file)
+## Project Structure
+.
+├── data/                  # Raw and cleaned datasets
+├── notebooks/             # Jupyter notebooks (EDA & analysis)
+├── src/                   # Python scripts
+├── requirements.txt       # Project dependencies
+├── README.md              # Project documentation
+
